@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mygit-checkout-remote develop
+git checkout -b $1
+
+exit $?
