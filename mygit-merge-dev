@@ -1,0 +1,9 @@
+#!/bin/bash
+
+BRANCH=`mygit-current`
+DEV="develop"
+mygit-checkout-remote $DEV
+git checkout $BRANCH
+git merge $DEV --no-edit
+
+exit $?
