@@ -1,0 +1,4 @@
+#!/bin/bash
+current=`pwd`;
+cd `dirname $0`
+node port-to-domain/addcommand.js $1 "$2" $current

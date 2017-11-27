@@ -1,0 +1,2 @@
+#!/bin/bash
+node `dirname $0`/port-to-domain/startserver.js $1
