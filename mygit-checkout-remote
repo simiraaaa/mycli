@@ -2,6 +2,7 @@
 
 git checkout .
 git checkout $1
+git fetch
 
 if [ $? = 0 ]
 then
